@@ -1,4 +1,4 @@
-Embedded Jetty 8 and Solr 4 with Maven
+Embedded Jetty 8 and Solr 4 build with Maven
 ======================================
 
 Solr packaged with embedded Jetty using Maven
