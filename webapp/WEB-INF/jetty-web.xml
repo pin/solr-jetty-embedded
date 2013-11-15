@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+  <Call class="org.eclipse.jetty.util.log.Log" name="info">
+    <Arg>Applying jetty-web.xml</Arg>
+  </Call>
+  <!-- Optional HTTP Authentication
+  <Get name="securityHandler">
+    <Set name="loginService">
+      <New class="org.eclipse.jetty.security.HashLoginService">
+        <Set name="name">local</Set>
+        <Set name="config"><SystemProperty name="solr.solr.home"/>/realm.properties</Set>
+      </New>
+    </Set>
+  </Get>
+  -->
+</Configure>
